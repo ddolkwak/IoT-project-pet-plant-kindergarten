@@ -33,7 +33,7 @@ This file is created in June 2023
      13. PHP_SM
 
 6. Credits
-   - Minsu Kim
    - Jeonghyun Kwak
+   - Minsu Kim
    - Chaejin Lee
    - Seohee Jang
