@@ -1,3 +1,5 @@
+// IoT project : pet-plant kindergarten(230303~230628)
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
