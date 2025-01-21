@@ -1,74 +1,95 @@
 <html>
-	<head>
-		<title>PET-PLANT KINDER'GARDEN'</title>
-	</head>
-	<body>
-<style>
-	img{
-		transition : transform 100ms ease-in-out, opacity 100ms ease-in-out;
-	}
-</style>		
-		
-		<center><h1>**** PET-PLANT KINDER'GARDEN' ****</h></center>
-		<br><br>
 
-		<center><table border="0" cellpadding="15%" width ="70%">
+<head>
+	<title>PET-PLANT KINDER'GARDEN'</title>
+</head>
+
+<body>
+	<style>
+		img {
+			transition: transform 100ms ease-in-out, opacity 100ms ease-in-out;
+		}
+	</style>
+
+	<center>
+		<h1>**** PET-PLANT KINDER'GARDEN' ****</h>
+	</center>
+	<br><br>
+
+	<center>
+		<table border="0" cellpadding="15%" width="70%">
 			<tr>
-				<td colspan="3"><center>
+				<td colspan="3">
+					<center>
 						<img src="img/soso.png" name="EMOJI"><br>
-				</center></td>
+					</center>
+				</td>
 			</tr>
-			
+
 			<tr>
-				<td><center>
-					<h3>Measure All</h><br><br>
-					<img src="img/auto_off.png" name="CHECKALL"><br><br>
-					<input type="button" value="Detect" id="CHECK_ALL" onclick="CHECK_ALL();">
-				</center></td>
-            
-            	<td><center>
-					<h3>Ventilation</h><br><br>
-					<img src="img/ventilation_off.png" name="DCM"><br><br>
-					<input type="button" value="ON" id="DCM_ON" onclick="DCM_ON();">
-					<input type="button" value="OFF" id="DCM_OFF" onclick="DCM_OFF();">
-				</center></td>
-				
-				<td><center>
-					<h3>Light</h><br><br>
-					<img src="img/led_off.png" name="LED"><br><br>
-					<input type="button" value="ON" id="LEDON" onclick="LIGHT_ON();">
-					<input type="button" value="OFF" id="LEDOFF" onclick="LIGHT_OFF();">
-				</center></td>
+				<td>
+					<center>
+						<h3>Measure All</h><br><br>
+							<img src="img/auto_off.png" name="CHECKALL"><br><br>
+							<input type="button" value="Detect" id="CHECK_ALL" onclick="CHECK_ALL();">
+					</center>
+				</td>
+
+				<td>
+					<center>
+						<h3>Ventilation</h><br><br>
+							<img src="img/ventilation_off.png" name="DCM"><br><br>
+							<input type="button" value="ON" id="DCM_ON" onclick="DCM_ON();">
+							<input type="button" value="OFF" id="DCM_OFF" onclick="DCM_OFF();">
+					</center>
+				</td>
+
+				<td>
+					<center>
+						<h3>Light</h><br><br>
+							<img src="img/led_off.png" name="LED"><br><br>
+							<input type="button" value="ON" id="LEDON" onclick="LIGHT_ON();">
+							<input type="button" value="OFF" id="LEDOFF" onclick="LIGHT_OFF();">
+					</center>
+				</td>
 
 			</tr>
 			<tr>
-				<td><center>
-					<h3>Temperature & Humidity</h><br><br>
-					<img src="img/dht_off.png" name="TEMPHUMI"><br><br>
-					<input type="button" id="TEMP_HUMI_button" value="Detect" onclick="TEMP_HUMI();"><br>
-					<input type="button" id="TEMP_val" value="Undetected" style="border:none;"><br>
-					<input type="button" id="HUMI_val" value="Undetected" style="border:none;"><br>
-				</center></td>
-				
-				<td><center>
-					<h3>Soil Moisture</h><br><br>
-					<img src="img/soil_off.png" name="SM"><br><br>
-					<input type="button" id="SM_button" value="Detect" onclick="SM_ON();"><br>
-					<input type="button" id="SM_val" value="Undetected" style="border:none;">
-				</center></td>
-            
-				<td><center>
-					<h3>Dust</h><br><br>
-					<img src="img/dust_off.png" name="DUST"><br><br>
-					<input type="button" id="DUST_button" value="Detect" onclick="DUST_ON();"><br>
-					<input type="button" id="DUST_val" value="Undetected" style="border:none;">
-				</center></td>
+				<td>
+					<center>
+						<h3>Temperature & Humidity</h><br><br>
+							<img src="img/dht_off.png" name="TEMPHUMI"><br><br>
+							<input type="button" id="TEMP_HUMI_button" value="Detect" onclick="TEMP_HUMI();"><br>
+							<input type="button" id="TEMP_val" value="Undetected" style="border:none;"><br>
+							<input type="button" id="HUMI_val" value="Undetected" style="border:none;"><br>
+					</center>
+				</td>
 
-         </tr>
-         <tr>
+				<td>
+					<center>
+						<h3>Soil Moisture</h><br><br>
+							<img src="img/soil_off.png" name="SM"><br><br>
+							<input type="button" id="SM_button" value="Detect" onclick="SM_ON();"><br>
+							<input type="button" id="SM_val" value="Undetected" style="border:none;">
+					</center>
+				</td>
 
-		</table></center>
+				<td>
+					<center>
+						<h3>Dust</h><br><br>
+							<img src="img/dust_off.png" name="DUST"><br><br>
+							<input type="button" id="DUST_button" value="Detect" onclick="DUST_ON();"><br>
+							<input type="button" id="DUST_val" value="Undetected" style="border:none;">
+					</center>
+				</td>
 
-		<script src="iot.js"></script>
-	</body>
+			</tr>
+			<tr>
+
+		</table>
+	</center>
+
+	<script src="iot.js"></script>
+</body>
+
 </html>
