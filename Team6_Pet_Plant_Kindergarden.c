@@ -3,14 +3,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
-#include <unistd.h>
-#include <pthread.h>
+#include <unistd.h> //Prettier로 format Documentation했더니 #include 오류 발생
+#include <pthread.h> //Prettier로 format Documentation했더니 #include 오류 발생
 #include <string.h> 
-#include <wiringPi.h>
-#include <wiringPiSPI.h>
-#include "bt_master.h"
-#include <sys/socket.h> 
-#include <netinet/in.h> 
+#include <wiringPi.h> //Prettier로 format Documentation했더니 #include 오류 발생
+#include <wiringPiSPI.h> //Prettier로 format Documentation했더니 #include 오류 발생
+#include "bt_master.h" //Prettier로 format Documentation했더니 #include 오류 발생
+#include <sys/socket.h> //Prettier로 format Documentation했더니 #include 오류 발생
+#include <netinet/in.h> //Prettier로 format Documentation했더니 #include 오류 발생
 
 #define PORT 8081
 
