@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
-#include <unistd.h> 
+#include <unistd.h> // Prettier로 format documentation 후 #include 에러 발생
 #include <pthread.h> 
 #include <string.h> 
 #include <wiringPi.h> 
